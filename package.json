@@ -1,6 +1,6 @@
 {
   "name": "emojipanel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A customisable emoji picker",
   "main": "dist/emojipanel.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danbovey/EmojiPanel.git"
+    "url": "git+https://github.com/russon77/EmojiPanel.git"
   },
   "keywords": [
     "emoji",
@@ -22,7 +22,7 @@
   "author": "Dan Bovey <dan@danbovey.uk>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/danbovey/EmojiPanel/issues"
+    "url": "https://github.com/russon77/EmojiPanel/issues"
   },
   "homepage": "https://emojipanel.js.org",
   "devDependencies": {
