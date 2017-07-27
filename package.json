@@ -1,6 +1,6 @@
 {
   "name": "emojipanel",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A customisable emoji picker",
   "main": "dist/emojipanel.js",
   "scripts": {
