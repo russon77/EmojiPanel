@@ -88,7 +88,7 @@ const Create = (options, emit, toggle) => {
     }
 
     if(options.frequent == true) {
-        let frequentList = localStorage.getItem('EmojiPanel-frequent');
+        let frequentList = null;
         if(frequentList) {
             frequentList = JSON.parse(frequentList);
         } else {

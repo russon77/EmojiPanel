@@ -21,7 +21,7 @@ const Emojis = {
         }
 
         // Load the emojis json
-        const json = localStorage.getItem('EmojiPanel-json');
+        const json = null;
         let jsonPromise = Promise.resolve(json);
         if(json == null) {
             jsonPromise = new Promise(resolve => {

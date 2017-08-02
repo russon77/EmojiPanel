@@ -39,7 +39,7 @@ const list = (options, panel, json, emit) => {
             const emojis = results.querySelectorAll('.' + options.classnames.emoji);
             const titles = results.querySelectorAll('.' + options.classnames.category);
 
-            let frequentList = localStorage.getItem('EmojiPanel-frequent');
+            let frequentList = null;
             if(frequentList) {
                 frequentList = JSON.parse(frequentList);
             } else {
