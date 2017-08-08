@@ -178,7 +178,8 @@ const list = (options, panel, json, emit) => {
                             char: emoji.dataset.char,
                             fitzpatrick: true,
                             category: emoji.dataset.category,
-                            name: emoji.dataset.name
+                            name: emoji.dataset.name,
+                            svg: emoji.dataset.svg
                         }
                         emoji.parentNode.replaceChild(Emojis.createButton(emojiObj, options, emit), emoji);
                     }
